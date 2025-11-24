@@ -427,6 +427,27 @@ footer p {
     }
 }
 
+/* Fix project and certification images */
+.project-card img,
+.certification-card img {
+    width: 100%;        /* image fills the card width */
+    height: 200px;      /* fixed height for uniformity */
+    object-fit: cover;  /* crops image nicely without stretching */
+    display: block;     /* removes inline spacing issues */
+    margin-bottom: 1rem;
+    border-radius: 8px; /* optional, matches card style */
+}
+
+/* Ensure project grids are responsive and evenly spaced */
+.projects-grid,
+.certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    align-items: start;
+}
+
+/* MEDIA QUERIES */
 @media (max-width: 768px) {
     header h1 {
         font-size: 2.8rem;
