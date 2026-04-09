@@ -447,6 +447,12 @@ footer p {
     align-items: start;
 }
 
+.experience-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
 /* MEDIA QUERIES */
 @media (max-width: 768px) {
     header h1 {
@@ -477,10 +483,4 @@ footer p {
         border-bottom: 1px solid #e9ecef;
         padding-bottom: 30px;
     }
-
-    .experience-logo {
-    width: 280px;
-    height: 280px;
-    }
-
 }
