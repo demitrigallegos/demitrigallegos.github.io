@@ -420,7 +420,8 @@ footer p {
 .experience-logo {
     width: 200px;
     height: 200px;
-    /* object-fit: contain; */
+    object-fit: contain;
+    border: 2px solid black;
 }
 
 /* --- 9. Responsive Design --- */
