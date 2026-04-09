@@ -417,6 +417,12 @@ footer p {
     opacity: 0.7;
 }
 
+.experience-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
 /* --- 9. Responsive Design --- */
 @media (max-width: 992px) {
     .skills-table {
@@ -446,13 +452,6 @@ footer p {
     gap: 2rem;
     align-items: start;
 }
-
-.experience-logo {
-    width: 80px;
-    height: 80px;
-    object-fit: contain;
-}
-
 /* MEDIA QUERIES */
 @media (max-width: 768px) {
     header h1 {
